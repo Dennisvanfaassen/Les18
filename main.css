@@ -1,0 +1,156 @@
+html {
+  background-color: #253237;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Header */
+header {
+  height: 250px;
+  background-image: url(images/header-background.jpg);
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5C6B73;
+}
+
+/* Body */
+main {
+  padding: 20px;
+}
+
+.left-section {
+  width: 100%;
+  padding: 10px;
+}
+
+.left-section h2 {
+  margin-top: 0;
+  color: #E0FBFC;
+}
+
+.left-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-section li {
+  padding-top: 15px;
+  color: #C2DFE3;
+}
+
+.right-section {
+  width: 100%;
+  padding: 10px;
+  background-color: #9DB4C0;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.article img {
+  width: 150px;
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #E0FBFC;
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    height: 250px;
+    background-image: url(images/header-background.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5C6B73;
+  }
+
+  .left-section {
+    width: 100%;
+  }
+
+  .right-section {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 250px;
+    background-image: url(images/header-background.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5C6B73;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+}
+
+.left-section {
+  width: 100%;
+}
+
+.right-section {
+  width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  header {
+    height: 250px;
+    background-image: url(images/header-background.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5C6B73;
+  }
+
+  .left-section {
+    width: 45%;
+    float: left;
+  }
+
+  .right-section {
+    width: 45%;
+    float: right;
+  }
+}
